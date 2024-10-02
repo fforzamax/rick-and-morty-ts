@@ -1,0 +1,23 @@
+footer {
+  background: #fff;
+  box-shadow: -2px 0px 8px 2px rgba(0, 0, 0, 0.1);
+  height: 60px;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  color: var(--Pharagraph, #212121);
+  text-align: center;
+  /* h3 */
+  font-family: Karla;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

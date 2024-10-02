@@ -1,0 +1,30 @@
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--grey, rgba(0, 0, 0, 0.5));
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.input {
+  width: 100%;
+
+  border: none;
+  outline: none;
+
+  color: var(--grey, rgba(0, 0, 0, 0.5));
+
+  /* Text 1 */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
