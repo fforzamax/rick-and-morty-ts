@@ -1,12 +1,13 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router";
 import { CharactersPage } from "../pages/CharactersPage";
 import { Layout } from "../layouts/Layout";
 
 export const router = createBrowserRouter([
   {
-    path: "/", //TODO: сделать редирект на /characters
+    path: "/",
     element: <Layout />,
     children: [
+      { index: true, element: <CharactersPage /> }, // При index:true компонент загружается по умолчанию при данном пути
       {
         path: "characters",
         element: <CharactersPage />,
