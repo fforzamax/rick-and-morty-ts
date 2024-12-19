@@ -8,7 +8,7 @@ import { CharactersCard } from "./components/CharactersCard";
 export const CharactersPage = () => {
   const [charactersData, setCharactersData] = useState([]);
   const [nextPage, setNextPage] = useState(
-    "https://rickandmortyapi.com/api/character"
+    "https://rickandmortyapi.com/api/character",
   );
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -61,7 +61,7 @@ export const CharactersPage = () => {
                 title={character.name}
                 text={character.species}
               />
-            )
+            ),
           )}
         </div>
 
