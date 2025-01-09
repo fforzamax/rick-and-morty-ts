@@ -1,0 +1,13 @@
+.Select {
+}
+
+.select {
+  appearance: none;
+}
+
+option {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  
+  appearance: none;
+}

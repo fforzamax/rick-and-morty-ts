@@ -7,7 +7,9 @@ export const Header = () => {
   return (
     <header className={s.header}>
       <Container className={s.header__container}>
-        <img src={logo} className={s.logo} alt="rick and morty" />
+        <NavLink to="/">
+          <img src={logo} className={s.logo} alt="rick and morty" />
+        </NavLink>
         <nav className={s.menu}>
           <ul className={s.list}>
             <li className={s.list_item}>

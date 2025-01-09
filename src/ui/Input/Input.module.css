@@ -1,0 +1,54 @@
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* width: 240px; */
+  padding: 16px;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  transition: 0.2s;
+}
+
+/* .inputContainer:focus-within {
+  box-shadow: 0 0 0 1px rgb(98, 227, 245, 0.5);
+} */
+
+.inputContainer:hover {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.small {
+  width: 240px;
+}
+
+.medium {
+  width: 326px;
+}
+
+.large {
+  width: 500px;
+}
+
+.input {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%; /* 24px */
+}
+
+.input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%; /* 24px */
+}
+
+.button {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
